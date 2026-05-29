@@ -8,19 +8,19 @@
     "net10.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\APPLE TEHUACAN\\.nuget\\packages\\": {}
+    "C:\\Users\\laris\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\APPLE TEHUACAN\\OneDrive\\Datos adjuntos de correo electrónico\\Documentos\\POO\\Proyecto_Final\\Proyectof\\Proyectof.csproj",
+      "projectUniqueName": "C:\\Users\\laris\\OneDrive\\Escritorio\\Progra Orientada a Objetos\\ProyectoF\\Proyecto_Final\\Proyectof\\Proyectof.csproj",
       "projectName": "Proyectof",
-      "projectPath": "C:\\Users\\APPLE TEHUACAN\\OneDrive\\Datos adjuntos de correo electrónico\\Documentos\\POO\\Proyecto_Final\\Proyectof\\Proyectof.csproj",
-      "packagesPath": "C:\\Users\\APPLE TEHUACAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\APPLE TEHUACAN\\OneDrive\\Datos adjuntos de correo electrónico\\Documentos\\POO\\Proyecto_Final\\Proyectof\\obj\\",
+      "projectPath": "C:\\Users\\laris\\OneDrive\\Escritorio\\Progra Orientada a Objetos\\ProyectoF\\Proyecto_Final\\Proyectof\\Proyectof.csproj",
+      "packagesPath": "C:\\Users\\laris\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\laris\\OneDrive\\Escritorio\\Progra Orientada a Objetos\\ProyectoF\\Proyecto_Final\\Proyectof\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\APPLE TEHUACAN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\laris\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0-windows"
