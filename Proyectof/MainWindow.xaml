@@ -14,16 +14,131 @@ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 Title="Piedra, Papel, Tijera, Lagarto, Spock"
 Height="560"
 Width="480">
+
 <StackPanel Margin="20">
-<TextBlock Text="Piedra, Papel, Tijera, Lagarto, Spock"
+
+ <!-- TITULO -->     
+<TextBlock Text="CACHIPÚN"
 FontSize="22"
 FontWeight="Bold"
 TextWrapping="Wrap"
 TextAlignment="Center"
 Margin="0,0,0,20"/>
-//AGREGAR LOS DEMÁS ELEMENTOS
-</StackPanel>
-</Window>
 
-    </Grid>
+ <!-- Nosotras --> 
+<TextBlock Text="by Laryme games"
+ FontSize="16"
+ TextWrapping="Wrap"
+ TextAlignment="Center"
+ Margin="0,0,0,20"/>
+
+ <!-- BOTONES -->
+
+
+ <Button Width="500" Height= "100" Background="#0C82F3" Foreground= "white" Click="BtnPiedra_Click">
+    <StackPanel>
+    <TextBlock TextAlignment="Center">Piedra </TextBlock>
+    <image Source="piedra.jpg" Width="50" Height="50"/>
+    </StackPanel>
+
+    <!--SONIDO-->
+    <Button.Style>
+    <Style TargetType="Button">
+        <Style.Triggers>
+            <EventTrigger RoutedEvent= "ButtonClick">
+                <EventTrigger.Actions>
+                    <SoundPlayerAction Source="Sounds\piedra.mp3"/>
+                        </EventTrigger.Actions>
+                            </EventTrigger>
+                                </Style.Triggers>
+                                    </Style>
+                                         </Button.Style>
+</Button>
+
+<Button Width="500" Height= "100" Background="#F94E6A" Foreground= "white" Click="BtnPiedra_Click">
+    <StackPanel>
+    <TextBlock TextAlignment="Center">Papel </TextBlock>
+    <image Source="papel.jpg" Width="50" Height="50"/>
+    </StackPanel>
+
+    <!--SONIDO-->
+    <Button.Style>
+    <Style TargetType="Button">
+        <Style.Triggers>
+            <EventTrigger RoutedEvent= "ButtonClick">
+                <EventTrigger.Actions>
+                    <SoundPlayerAction Source="Sounds\papel.mp3"/>
+                        </EventTrigger.Actions>
+                            </EventTrigger>
+                                </Style.Triggers>
+                                    </Style>
+                                         </Button.Style>
+</Button>
+
+<Button Width="500" Height= "100" Background="#85FF03" Foreground= "white" Click="BtnPiedra_Click">
+    <StackPanel>
+    <TextBlock TextAlignment="Center">Tijera </TextBlock>
+    <image Source="tijera.jpg" Width="50" Height="50"/>
+    </StackPanel>
+
+    <!--SONIDO-->
+    <Button.Style>
+    <Style TargetType="Button">
+        <Style.Triggers>
+            <EventTrigger RoutedEvent= "ButtonClick">
+                <EventTrigger.Actions>
+                    <SoundPlayerAction Source="Sounds\tijera.mp3"/>
+                        </EventTrigger.Actions>
+                            </EventTrigger>
+                                </Style.Triggers>
+                                    </Style>
+                                         </Button.Style>
+</Button>
+
+<Button Width="500" Height= "100" Background="#FF9F1A" Foreground= "white" Click="BtnPiedra_Click">
+    <StackPanel>
+    <TextBlock TextAlignment="Center">Lagarto </TextBlock>
+    <image Source="lagarto.jpg" Width="50" Height="50"/>
+    </StackPanel>
+
+    <!--SONIDO-->
+    <Button.Style>
+    <Style TargetType="Button">
+        <Style.Triggers>
+            <EventTrigger RoutedEvent= "ButtonClick">
+                <EventTrigger.Actions>
+                    <SoundPlayerAction Source="Sounds\lagarto.mp3"/>
+                        </EventTrigger.Actions>
+                            </EventTrigger>
+                                </Style.Triggers>
+                                    </Style>
+                                         </Button.Style>
+</Button>
+
+
+
+<Button Width="500" Height= "100" Background="#9022FF" Foreground= "white" Click="BtnPiedra_Click">
+    <StackPanel>
+    <TextBlock TextAlignment="Center">Spock </TextBlock>
+    <image Source="spock.webp" Width="50" Height="50"/>
+    </StackPanel>
+
+    <!--SONIDO-->
+    <Button.Style>
+    <Style TargetType="Button">
+        <Style.Triggers>
+            <EventTrigger RoutedEvent= "ButtonClick">
+                <EventTrigger.Actions>
+                    <SoundPlayerAction Source="Sounds\spock.mp3"/>
+                        </EventTrigger.Actions>
+                            </EventTrigger>
+                                </Style.Triggers>
+                                    </Style>
+                                         </Button.Style>
+</Button>
+
+<Image Source="fondo.jpg" Stretch="Fill" Opacity="0.3" Panel.ZIndex="-1"/>
+
+
+</StackPanel>
 </Window>

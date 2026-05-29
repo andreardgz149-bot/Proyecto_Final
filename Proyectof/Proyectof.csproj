@@ -1,21 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>net10.0-windows</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <UseWPF>true</UseWPF>
-  </PropertyGroup>
+    <PropertyGroup>
+      <OutputType>WinExe</OutputType>
+      <TargetFramework>net10.0-windows</TargetFramework>
+      <Nullable>enable</Nullable>
+      <ImplicitUsings>enable</ImplicitUsings>
+      <UseWPF>true</UseWPF>
+    </PropertyGroup>
 
-  <ItemGroup>
-<Resource Include="Images\congrats.jpg" />
-<Resource Include="Images\ups.jpg" />
-<Resource Include="Images\piedra.jpg" />
-<Resource Include="Images\papel.jpg" />
-<Resource Include="Images\tijera.jpg" />
-<Resource Include="Images\lagarto.jpg" />
-<Resource Include="Images\spock.webp" />
-<ItemGroup>
+    <ItemGroup>
+      <Resource Include="Images\congrats.jpg" />
+      <Resource Include="Images\ups.jpg" />
+      <Resource Include="Images\piedra.jpg" />
+      <Resource Include="Images\papel.jpg" />
+      <Resource Include="Images\tijera.jpg" />
+      <Resource Include="Images\lagarto.jpg" />
+      <Resource Include="Images\spock.webp" />
+      <Resource Include="Sounds\piedra.mp3" />
+      <Resource Include="Sounds\papel.mp3" />
+      <Resource Include="Sounds\tijera.mp3" />
+      <Resource Include="Sounds\lagarto.mp3" />
+      <Resource Include="Sounds\spock.mp3" />
+    </ItemGroup>
 
 </Project>
