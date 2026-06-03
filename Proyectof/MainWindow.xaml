@@ -119,7 +119,7 @@ Margin="0,0,0,20"/>
         <Style.Triggers>
             <EventTrigger RoutedEvent= "Button.Click">
                 <EventTrigger.Actions>
-                    <SoundPlayerAction Source="Sounds\spock.mp3"/>
+                    <SoundPlayerAction Source="Sounds\spock.wav"/>
                         </EventTrigger.Actions>
                             </EventTrigger>
                                 </Style.Triggers>
