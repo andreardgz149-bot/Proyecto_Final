@@ -17,11 +17,12 @@
       <Resource Include="Images\lagarto.jpg" />
       <Resource Include="Images\fondo.jpg" />
       <Resource Include="Images\spock.webp" />
-      <Resource Include="Sounds\piedra.mp3" />
-      <Resource Include="Sounds\papel.mp3" />
-      <Resource Include="Sounds\tijera.mp3" />
-      <Resource Include="Sounds\lagarto.mp3" />
-      <Resource Include="Sounds\spock.mp3" />
+      <Resource Include="Sounds\piedra.wav" />
+      <Resource Include="Sounds\papel.wav" />
+      <Resource Include="Sounds\tijera.wav" />
+      <Resource Include="Sounds\lagarto.wav" />
+      <Resource Include="Sounds\spock.wav" />
     </ItemGroup>
+
 
 </Project>
