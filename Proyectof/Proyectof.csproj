@@ -13,8 +13,9 @@
       <Resource Include="Images\ups.jpg" />
       <Resource Include="Images\piedra.jpg" />
       <Resource Include="Images\papel.jpg" />
-      <Resource Include="Images\tijera.jpg" />
+      <Resource Include="Images\tijeras.jpg" />
       <Resource Include="Images\lagarto.jpg" />
+      <Resource Include="Images\fondo.jpg" />
       <Resource Include="Images\spock.webp" />
       <Resource Include="Sounds\piedra.mp3" />
       <Resource Include="Sounds\papel.mp3" />

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Media;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -27,11 +28,6 @@ public partial class MainWindow : Window
         InitializeComponent();
 
         juego = new Juego();
-    }
-
-private void InitializeComponent()
-    {
-        throw new NotImplementedException();
     }
 
     //Piedra
