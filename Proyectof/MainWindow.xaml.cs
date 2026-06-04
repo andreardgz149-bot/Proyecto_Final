@@ -30,8 +30,7 @@ public partial class MainWindow : Window
         juego = new Juego();
     }
 
-    //Gif
-
+    //VIDEOSGIF
    private void MostrarVideo(string archivo)
 {
     string path = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Videos", archivo);
@@ -52,8 +51,6 @@ public partial class MainWindow : Window
         else
            {MostrarVideo("empate.mp4");}
     }
-
-
 
 
     //Piedra
