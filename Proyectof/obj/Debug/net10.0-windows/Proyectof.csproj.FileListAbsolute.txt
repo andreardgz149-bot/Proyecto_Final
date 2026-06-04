@@ -1,3 +1,5 @@
+C:\Users\APPLE TEHUACAN\Proyecto_Final\Proyectof\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\APPLE TEHUACAN\Proyecto_Final\Proyectof\obj\Debug\net10.0-windows\Proyectof_MarkupCompile.cache
 C:\Users\APPLE TEHUACAN\Proyecto_Final\Proyectof\bin\Debug\net10.0-windows\Proyectof.exe
 C:\Users\APPLE TEHUACAN\Proyecto_Final\Proyectof\bin\Debug\net10.0-windows\Proyectof.deps.json
 C:\Users\APPLE TEHUACAN\Proyecto_Final\Proyectof\bin\Debug\net10.0-windows\Proyectof.runtimeconfig.json
@@ -5,8 +7,6 @@ C:\Users\APPLE TEHUACAN\Proyecto_Final\Proyectof\bin\Debug\net10.0-windows\Proye
 C:\Users\APPLE TEHUACAN\Proyecto_Final\Proyectof\bin\Debug\net10.0-windows\Proyectof.pdb
 C:\Users\APPLE TEHUACAN\Proyecto_Final\Proyectof\obj\Debug\net10.0-windows\MainWindow.baml
 C:\Users\APPLE TEHUACAN\Proyecto_Final\Proyectof\obj\Debug\net10.0-windows\MainWindow.g.cs
-C:\Users\APPLE TEHUACAN\Proyecto_Final\Proyectof\obj\Debug\net10.0-windows\App.g.cs
-C:\Users\APPLE TEHUACAN\Proyecto_Final\Proyectof\obj\Debug\net10.0-windows\Proyectof_MarkupCompile.cache
 C:\Users\APPLE TEHUACAN\Proyecto_Final\Proyectof\obj\Debug\net10.0-windows\Proyectof.g.resources
 C:\Users\APPLE TEHUACAN\Proyecto_Final\Proyectof\obj\Debug\net10.0-windows\Proyectof.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\APPLE TEHUACAN\Proyecto_Final\Proyectof\obj\Debug\net10.0-windows\Proyectof.AssemblyInfoInputs.cache

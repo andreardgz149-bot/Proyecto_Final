@@ -33,7 +33,8 @@ public partial class MainWindow : Window
     //Piedra
     private void BtnPiedra_Click(object sender, RoutedEventArgs e)
     {
-       MessageBox.Show("prueba de boton");
+       Jugada = new Piedra();
+        MessageBox.Show(juego.Jugar(Jugada));
     }
 
     //Papel
