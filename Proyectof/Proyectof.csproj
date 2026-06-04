@@ -22,6 +22,15 @@
       <Resource Include="Sounds\tijera.wav" />
       <Resource Include="Sounds\lagarto.wav" />
       <Resource Include="Sounds\spock.wav" />
+      <Content Include="Videos\ganar.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Videos\perder.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Videos\empate.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 
 
