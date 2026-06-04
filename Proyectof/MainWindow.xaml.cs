@@ -33,7 +33,7 @@ public partial class MainWindow : Window
     //Piedra
     private void BtnPiedra_Click(object sender, RoutedEventArgs e)
     {
-        Jugada = new Piedra();
+       Jugada = new Piedra();
         MessageBox.Show(juego.Jugar(Jugada));
     }
 

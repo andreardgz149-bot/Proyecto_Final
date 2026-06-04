@@ -9,6 +9,10 @@ public class Juego{
     public int PuntosCPU { get; private set; }
     public int Empates { get; private set; }
     public Juego(){
+
+       JugadorHumano = new Jugador("Jugador");
+       CPU = new Jugador("CPU");
+        
         jugadas = new List<IJugada>()
         {
             new Piedra(),
