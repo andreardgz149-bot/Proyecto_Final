@@ -27,7 +27,6 @@ public class Juego{
     }
     public string Jugar(IJugada jugadaHumana){
         JugadorHumano.ElegirJugada(jugadaHumana);
-        //AQUÍ FALTA ALGO
         IJugada jugadaCPU = ObtenerJugadaAleatoria();
         
         string resultado = jugadaHumana.ResolverContra(jugadaCPU);

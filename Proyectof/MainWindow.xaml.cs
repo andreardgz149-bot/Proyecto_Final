@@ -30,39 +30,78 @@ public partial class MainWindow : Window
         juego = new Juego();
     }
 
+    //Gif
+
+   private void MostrarVideo(string archivo)
+{
+    string path = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Videos", archivo);
+    GifMediaElement.Source = new Uri(path);
+    GifMediaElement.LoadedBehavior = MediaState.Manual;
+    GifMediaElement.UnloadedBehavior = MediaState.Manual;
+    GifMediaElement.Stop();
+    GifMediaElement.Play();
+}
+
+    private void MostrarResultadoVideo(string resultado)
+    {
+        if (resultado.Contains("Gana"))
+            {MostrarVideo("ganar.mp4");}
+        else 
+        if (resultado.Contains("Pierde"))
+            {MostrarVideo("perder.mp4");}
+        else
+           {MostrarVideo("empate.mp4");}
+    }
+
+
+
+
     //Piedra
     private void BtnPiedra_Click(object sender, RoutedEventArgs e)
     {
        Jugada = new Piedra();
-        MessageBox.Show(juego.Jugar(Jugada));
+
+    string resultado = juego.Jugar(Jugada);
+
+    MessageBox.Show(resultado);
+
+    MostrarResultadoVideo(resultado);
     }
 
     //Papel
     private void BtnPapel_Click(object sender, RoutedEventArgs e)
     {
         Jugada = new Papel();
-        MessageBox.Show(juego.Jugar(Jugada));
+        string resultado = juego.Jugar(Jugada);
+        MessageBox.Show(resultado);
+        MostrarResultadoVideo(resultado);
     }
 
     //Tijera
     private void BtnTijera_Click(object sender, RoutedEventArgs e)
     {
         Jugada = new Tijera();
-        MessageBox.Show(juego.Jugar(Jugada));
+        string resultado = juego.Jugar(Jugada);
+        MessageBox.Show(resultado);
+        MostrarResultadoVideo(resultado);
     }
 
     //Lagarto
     private void BtnLagarto_Click(object sender, RoutedEventArgs e)
     {
         Jugada = new Lagarto();
-        MessageBox.Show(juego.Jugar(Jugada));
+        string resultado = juego.Jugar(Jugada);
+        MessageBox.Show(resultado);
+        MostrarResultadoVideo(resultado);
     }
 
     //Spock
     private void BtnSpock_Click(object sender, RoutedEventArgs e)
     {
         Jugada = new Spock();
-        MessageBox.Show(juego.Jugar(Jugada));
+        string resultado = juego.Jugar(Jugada);
+        MessageBox.Show(resultado);
+        MostrarResultadoVideo(resultado);
     }
 
 }
